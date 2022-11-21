@@ -1,0 +1,87 @@
+* {
+  font-family: "Manrope", sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: #000000;
+
+}
+
+ul{
+    list-style-type: none; 
+    padding: 0px;  
+}
+
+h6{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h5{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.text-regular{
+    font-weight: 400;
+    
+}
+
+.footer {
+  width: 100%;
+  min-height: 200px;
+  background: linear-gradient(
+    107.73deg,
+    #2b1e2f 0%,
+    #2a1630 46.88%,
+    #451121 100%
+  );
+}
+
+.inline-list li{
+    display: inline;
+}
+
+.form-control-custom{
+    background-color: #C4C4C420;
+    border: 1px solid #ffffff20;
+}
+
+.form-control-custom::placeholder {
+    color: #ffffff;
+  }
+
+.btn-primary-custom {
+    background: rgb(216,31,90);
+    background: linear-gradient(145deg, rgba(216,31,90,1) 0%, rgba(132,56,191,1) 100%);
+    outline: none;
+    border: none;
+    font-weight: 500;
+}
+
+.text-highlight{
+  background: -webkit-linear-gradient(145deg, rgba(216,31,90,1) 0%, rgba(132,56,191,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header{
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.product-card{
+    max-width: 285px;
+}
+
+.product-card__image{
+    height: 285px;
+    width: 285px;
+}
+
+.product-card__image img{
+    width: 100%;
+    height: 100%;
+}
